@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">My Story</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="terms">I accept terms and conditions </string>
+    <string name="forgot_password">Forgot password?</string>
+
 </resources>
