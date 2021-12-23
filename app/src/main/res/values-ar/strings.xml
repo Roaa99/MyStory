@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">قصتي</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="terms">أوافق على البنود والشروط </string>
+    <string name="forgot_password">نسيت كلمة المرور؟</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="open">فتح</string>
+    <string name="close">إغلاق</string>
+    <string name="enter_title">أدخل العنوان هنا</string>
+    <string name="enter_subtitle">أدخل العنوان الفرعي هنا</string>
+    <string name="enter_description">أدخل الوصف</string>
+    <string name="add_story">أضف القصة</string>
+
+    <string name="Title_Story1">الأسبوع الأول</string>
+    <string name="SubTitle_Story1">أساسيات كوتلن</string>
+    <string name="desc_Story1">كوتلن هي لغة برمجة مفتوحة المصدر مكتوبة بشكل ثابت تستهدف JVM و Android و JavaScript و
+        Native.
+        تم تطويره بواسطة JetBrains. بدأ المشروع في عام 2010 وكان مفتوح المصدر منذ وقت مبكر جدًا.
+كان أول إصدار رسمي 1.0 في فبراير 2016.
+        \n\nأساسيات كوتلن \n\n1-التعليقات \n\n2-المتغيرات والثوابت\n\n4-الجمل الشرطية\n\n5-مدى المتغيرا
+        \n\n6-المصفوفات\n\n7-الدوال\n\n8-حلقات التكرار
+        </string>
+
+    <string name="Title_Story2">الأسبوع الثاني</string>
+    <string name="SubTitle_Story2">بيئة عمل أندرويد استديو</string>
+    <string name="desc_Story2">1-التعرف على بيئة عمل الأندرويد استديو:\n
+      الاندرويد استديو هي بيئة التطوير المتكاملة الرسمية (IDE) لتطوير تطبيقات الاندرويد.\n
+        يوفر الاندرويد استديو العديد من المميزات التي تعزز إنتاجيتك عند إنشاء تطبيقات الاندرويد.
+        \n\n 2-أنشاء محاكي داخل بيئة العمل.
+        \n\n 3-التعرف على مجلد (Mainfest)
+        \n\n 4- التعرف على مجلدات (Gradle) وأنواعها
+        \n\n 5-تصميم واجهة مستخدم بسيطة
+</string>
+</resources>

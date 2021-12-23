@@ -13,6 +13,7 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.navigation.NavigationView
+import java.lang.NullPointerException
 
 class MainActivity : AppCompatActivity() {
 
@@ -41,10 +42,16 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         setupDrawer()
-        updateEmailHeader(email!!)
+        try{
+            updateEmailHeader(email!!)
+        }catch (e:NullPointerException){
+        }
+
         drawerClicks()
         openAddStoryActivity()
         displayStories()
+
+
     }
 
 
@@ -56,6 +63,8 @@ class MainActivity : AppCompatActivity() {
        val headerView=navigationView?.getHeaderView(0)
         val textViewEmail= headerView?.findViewById<TextView>(R.id.tvEmail)
         textViewEmail?.text=email
+        val textViewUserName=headerView?.findViewById<TextView>(R.id.tvUsername)
+        textViewUserName?.text=email.substringBefore("@")
     }
 
 
@@ -127,12 +136,27 @@ class MainActivity : AppCompatActivity() {
     private fun displayStories(){
 
         val storiesArray= ArrayList<Story>()
-        storiesArray.add(Story("This is my first story","this is subtitle","welcome to my story"))
-        storiesArray.add(Story("This is my second story","this is second subtitle","welcome to my story"))
-        storiesArray.add(Story("Hello this is my third story","this is third subtitle","welcome to my story"))
+        storiesArray.add(Story(getString(R.string.Title_Story1),getString(R.string.SubTitle_Story1),getString(R.string.desc_Story1)))
+        storiesArray.add(Story(getString(R.string.Title_Story2),getString(R.string.SubTitle_Story2),getString(R.string.desc_Story2)))
+
+
+
 
         val customAdapter= CustomAdapter(storiesArray,this)
         recyclerView?.adapter=customAdapter
+
+
+
+        // code of add new story from user
+        if(intent.getStringExtra("title") != null){
+            val title= intent.getStringExtra("title")
+            val subTitle= intent.getStringExtra("subtitle")
+            val desc= intent.getStringExtra("desc")
+
+            val newStory=Story(title!!,subTitle!!,desc!!)
+            storiesArray.add(newStory)
+            customAdapter.notifyDataSetChanged()
+        }
     }
 
 }

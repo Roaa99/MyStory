@@ -9,5 +9,22 @@
     <string name="logout">Logout</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+    <string name="enter_title">Enter Title here</string>
+    <string name="enter_subtitle">Enter Sub-title here</string>
+    <string name="enter_description">Enter Description</string>
+    <string name="add_story">Add Story</string>
+
+    <string name="Title_Story1">Week One</string>
+    <string name="SubTitle_Story1">Kotlin Fundamentals</string>
+    <string name="desc_Story1">Kotlin is an open-source statically typed programming language that targets the JVM, Android, JavaScript and Native.
+        It’s developed by JetBrains. The project started in 2010 and was open source from very early on.
+        The first official 1.0 release was in February 2016.\n\nBasics of Kotlin\n1-comments\n2-variables and constants \n3-conditional sentences
+        \n4-Arithmetic and logical operations\n5-range of variables\n6-Arrays\n7-Functions\n8-loops</string>
+
+    <string name="Title_Story2">Week Two</string>
+    <string name="SubTitle_Story2">Android Studio environment</string>
+    <string name="desc_Story2">1-Recognize on Android Studio environment:\nAndroid Studio is the official Integrated Development Environment (IDE) for Android app development.
+    \nAndroid Studio offers even more features that enhance your productivity when building Android apps.\n\n2-Create an emulation inside the work environment.
+        \n\n3-Recognize on Manifest file.\n\n4-Recognize on Gradle files and his types. \n\n5-design a simple user interface </string>
 
 </resources>

@@ -3,11 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/ruyal/AndroidStudioProjects/MyStory/app/src/main/res/layout/activity_login.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/ruyal/AndroidStudioProjects/MyStory/app/src/main/res/layout/activity_add_story.xml" value="0.1" />
+        <entry key="..\:/Users/ruyal/AndroidStudioProjects/MyStory/app/src/main/res/layout/activity_login.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/ruyal/AndroidStudioProjects/MyStory/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/ruyal/AndroidStudioProjects/MyStory/app/src/main/res/layout/activity_splash.xml" value="0.2105978260869565" />
-        <entry key="..\:/Users/ruyal/AndroidStudioProjects/MyStory/app/src/main/res/layout/custom_layout.xml" value="0.1" />
-        <entry key="..\:/Users/ruyal/AndroidStudioProjects/MyStory/app/src/main/res/layout/nav_header.xml" value="0.1" />
+        <entry key="..\:/Users/ruyal/AndroidStudioProjects/MyStory/app/src/main/res/layout/activity_story_details.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/ruyal/AndroidStudioProjects/MyStory/app/src/main/res/layout/custom_layout.xml" value="0.10666666666666667" />
+        <entry key="..\:/Users/ruyal/AndroidStudioProjects/MyStory/app/src/main/res/layout/nav_header.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/ruyal/AndroidStudioProjects/MyStory/app/src/main/res/menu/menu_drawer.xml" value="0.1" />
       </map>
     </option>

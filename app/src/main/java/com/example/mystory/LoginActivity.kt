@@ -39,6 +39,7 @@ class LoginActivity : AppCompatActivity() {
 
         //مصفوفة مستخدمي التطبيق
         val usersArray:ArrayList<User> = ArrayList()
+        usersArray.add(User("test@test.com" , "1234"))
         usersArray.add(User("roaa@gmail.com" , "0123"))
         usersArray.add(User("sara@gmail.com" , "4567"))
         usersArray.add(User("yara@gmail.com" , "8910"))
@@ -52,6 +53,8 @@ class LoginActivity : AppCompatActivity() {
 
             // كودالمقارنه
             for(index in usersArray){
+                //ممكن هنا استخدم دالة equals() واحط true اذا ابغاه يتجاهل الاحرف الصغيرة والكبيرة
+                    // هنا = = يقارن الاحرف الكبيرة والصغيرة
                 if(index.email== user.email && index.password==user.password){
                     //Toast.makeText(this,"Welcome ${user.email}",Toast.LENGTH_LONG).show()
                         finish()// حتى يحذف واجهة الدخول من الذاكرة
